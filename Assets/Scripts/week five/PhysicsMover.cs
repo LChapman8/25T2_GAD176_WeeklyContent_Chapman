@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using SeaWizards.Staffs;
 using UnityEngine;
 
 /// <summary>
@@ -10,7 +11,9 @@ public class PhysicsMover : MonoBehaviour
 {
     [SerializeField] private Rigidbody sphere;
 
+    [SerializeField] private GameObject chaseTarget;
     [SerializeField] private bool isCurrentlyChasing = false;
+   
 
     private void FixedUpdate()
     {
@@ -18,13 +21,16 @@ public class PhysicsMover : MonoBehaviour
         {
             if (sphere.velocity.magnitude < 20)
             {
-                sphere.AddForce(Input.GetAxis("Vertical"), 0, Input.GetAxis("Horizontal"));
+                sphere.AddForce(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
             }
         }
 
         else
         {
-
+            if (sphere.velocity.magnitude < 20)
+            {
+                sphere.AddForce(chaseTarget.transform.position - gameObject.transform.position);
+            }
         }
     }
 }

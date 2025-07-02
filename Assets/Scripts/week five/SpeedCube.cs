@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SpeedCube : MonoBehaviour
 {
-    [SerializeField] private float movementSpeedInUnitsPerSecond = 1f;
+    [SerializeField] private float movementSpeedInUnitsPerSecond = 30f;
     // Start is called before the first frame update
     void Start()
     {
