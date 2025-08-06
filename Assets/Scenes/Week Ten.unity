@@ -5621,6 +5621,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hologram - cube  (108)
       objectReference: {fileID: 0}
+    - target: {fileID: 7757966383362751047, guid: ad9508c1738422f4bbd3fa314c756279,
+        type: 3}
+      propertyPath: health
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6934,6 +6939,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Hologram - cube  (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757966383362751047, guid: ad9508c1738422f4bbd3fa314c756279,
+        type: 3}
+      propertyPath: health
+      value: 1234
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8411,6 +8421,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Hologram - cube  (220)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757966383362751047, guid: ad9508c1738422f4bbd3fa314c756279,
+        type: 3}
+      propertyPath: health
+      value: 2435135
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14295,6 +14310,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hologram - cube  (146)
       objectReference: {fileID: 0}
+    - target: {fileID: 7757966383362751047, guid: ad9508c1738422f4bbd3fa314c756279,
+        type: 3}
+      propertyPath: health
+      value: 2442
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15419,6 +15439,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Hologram - cube  (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757966383362751047, guid: ad9508c1738422f4bbd3fa314c756279,
+        type: 3}
+      propertyPath: health
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21673,6 +21698,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hologram - cube  (219)
       objectReference: {fileID: 0}
+    - target: {fileID: 7757966383362751047, guid: ad9508c1738422f4bbd3fa314c756279,
+        type: 3}
+      propertyPath: health
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21838,6 +21868,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Hologram - cube  (293)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757966383362751047, guid: ad9508c1738422f4bbd3fa314c756279,
+        type: 3}
+      propertyPath: health
+      value: 123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22208,6 +22243,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 'Hologram - cube '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757966383362751047, guid: ad9508c1738422f4bbd3fa314c756279,
+        type: 3}
+      propertyPath: health
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
